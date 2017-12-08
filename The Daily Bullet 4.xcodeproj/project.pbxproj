@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90282EF61FD9FFE000E42574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90282EF51FD9FFE000E42574 /* AppDelegate.swift */; };
+		90282EFB1FD9FFE000E42574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90282EF91FD9FFE000E42574 /* Main.storyboard */; };
+		90282EFD1FD9FFE000E42574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90282EFC1FD9FFE000E42574 /* Assets.xcassets */; };
+		90282F001FD9FFE000E42574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90282EFE1FD9FFE000E42574 /* LaunchScreen.storyboard */; };
+		90282F0D1FDA039300E42574 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90282F0C1FDA039300E42574 /* SWRevealViewController.m */; };
+		90282F191FDA0B1E00E42574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90282F181FDA0B1E00E42574 /* ViewController.swift */; };
+		90282F1D1FDA15A500E42574 /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 90282F1B1FDA15A500E42574 /* Cover.png */; };
+		90282F1E1FDA15A500E42574 /* CoverPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90282F1C1FDA15A500E42574 /* CoverPic.jpg */; };
+		90282F221FDA18CC00E42574 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90282F211FDA18CC00E42574 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90282EF21FD9FFE000E42574 /* The Daily Bullet 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Daily Bullet 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90282EF51FD9FFE000E42574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90282EFA1FD9FFE000E42574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90282EFC1FD9FFE000E42574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90282EFF1FD9FFE000E42574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90282F011FD9FFE000E42574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90282F071FDA020900E42574 /* The Daily Bullet 4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Daily Bullet 4-Bridging-Header.h"; sourceTree = "<group>"; };
+		90282F0B1FDA039300E42574 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		90282F0C1FDA039300E42574 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		90282F181FDA0B1E00E42574 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90282F1B1FDA15A500E42574 /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover.png; sourceTree = "<group>"; };
+		90282F1C1FDA15A500E42574 /* CoverPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CoverPic.jpg; sourceTree = "<group>"; };
+		90282F211FDA18CC00E42574 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90282EEF1FD9FFE000E42574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90282EE91FD9FFE000E42574 = {
+			isa = PBXGroup;
+			children = (
+				90282EF41FD9FFE000E42574 /* The Daily Bullet 4 */,
+				90282EF31FD9FFE000E42574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90282EF31FD9FFE000E42574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90282EF21FD9FFE000E42574 /* The Daily Bullet 4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90282EF41FD9FFE000E42574 /* The Daily Bullet 4 */ = {
+			isa = PBXGroup;
+			children = (
+				90282F1A1FDA159700E42574 /* Photos */,
+				90282EF51FD9FFE000E42574 /* AppDelegate.swift */,
+				90282F211FDA18CC00E42574 /* MainViewController.swift */,
+				90282EF91FD9FFE000E42574 /* Main.storyboard */,
+				90282F181FDA0B1E00E42574 /* ViewController.swift */,
+				90282F0B1FDA039300E42574 /* SWRevealViewController.h */,
+				90282F0C1FDA039300E42574 /* SWRevealViewController.m */,
+				90282EFC1FD9FFE000E42574 /* Assets.xcassets */,
+				90282EFE1FD9FFE000E42574 /* LaunchScreen.storyboard */,
+				90282F011FD9FFE000E42574 /* Info.plist */,
+				90282F071FDA020900E42574 /* The Daily Bullet 4-Bridging-Header.h */,
+			);
+			path = "The Daily Bullet 4";
+			sourceTree = "<group>";
+		};
+		90282F1A1FDA159700E42574 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				90282F1B1FDA15A500E42574 /* Cover.png */,
+				90282F1C1FDA15A500E42574 /* CoverPic.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90282EF11FD9FFE000E42574 /* The Daily Bullet 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90282F041FD9FFE000E42574 /* Build configuration list for PBXNativeTarget "The Daily Bullet 4" */;
+			buildPhases = (
+				90282EEE1FD9FFE000E42574 /* Sources */,
+				90282EEF1FD9FFE000E42574 /* Frameworks */,
+				90282EF01FD9FFE000E42574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Daily Bullet 4";
+			productName = "The Daily Bullet 4";
+			productReference = 90282EF21FD9FFE000E42574 /* The Daily Bullet 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90282EEA1FD9FFE000E42574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					90282EF11FD9FFE000E42574 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90282EED1FD9FFE000E42574 /* Build configuration list for PBXProject "The Daily Bullet 4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90282EE91FD9FFE000E42574;
+			productRefGroup = 90282EF31FD9FFE000E42574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90282EF11FD9FFE000E42574 /* The Daily Bullet 4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90282EF01FD9FFE000E42574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90282F001FD9FFE000E42574 /* LaunchScreen.storyboard in Resources */,
+				90282EFD1FD9FFE000E42574 /* Assets.xcassets in Resources */,
+				90282EFB1FD9FFE000E42574 /* Main.storyboard in Resources */,
+				90282F1D1FDA15A500E42574 /* Cover.png in Resources */,
+				90282F1E1FDA15A500E42574 /* CoverPic.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90282EEE1FD9FFE000E42574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90282F191FDA0B1E00E42574 /* ViewController.swift in Sources */,
+				90282EF61FD9FFE000E42574 /* AppDelegate.swift in Sources */,
+				90282F0D1FDA039300E42574 /* SWRevealViewController.m in Sources */,
+				90282F221FDA18CC00E42574 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90282EF91FD9FFE000E42574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90282EFA1FD9FFE000E42574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90282EFE1FD9FFE000E42574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90282EFF1FD9FFE000E42574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90282F021FD9FFE000E42574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90282F031FD9FFE000E42574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90282F051FD9FFE000E42574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "The Daily Bullet 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.RockValleyCollege.The-Daily-Bullet-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The Daily Bullet 4/The Daily Bullet 4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90282F061FD9FFE000E42574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "The Daily Bullet 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.RockValleyCollege.The-Daily-Bullet-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The Daily Bullet 4/The Daily Bullet 4-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90282EED1FD9FFE000E42574 /* Build configuration list for PBXProject "The Daily Bullet 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90282F021FD9FFE000E42574 /* Debug */,
+				90282F031FD9FFE000E42574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90282F041FD9FFE000E42574 /* Build configuration list for PBXNativeTarget "The Daily Bullet 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90282F051FD9FFE000E42574 /* Debug */,
+				90282F061FD9FFE000E42574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90282EEA1FD9FFE000E42574 /* Project object */;
+}
